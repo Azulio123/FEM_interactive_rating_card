@@ -1,0 +1,130 @@
+body {
+    background-color: #151518;
+    padding: 7% 2%;
+    font-family: 'Overpass', sans-serif;
+    
+}
+
+.card-body {
+    background-color: #1d242e;
+    border-radius: 25px;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 450px;
+    max-height: 450px;
+    max-width: 450px;
+}
+
+.top-star {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.star {
+    position: relative;
+    border-radius: 50%;
+    width: 20%;
+    height: 50px
+    
+    
+}
+
+#starstar {
+    width: 20%;
+    
+}
+
+h1 {
+    font-size: 1.75rem;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.feedback-request {
+    color: white;
+    text-align: left;
+    width: 85%;
+    padding-left: 30px;
+    line-height: 1.5;
+    
+}
+
+.number-scale {
+    width: 100%;
+}
+
+.number {
+    border-radius: 1.25rem;
+    border: none;
+    height: 2.625rem;
+    margin: 10px 10px;
+    background-color: #212831;
+    color: white;
+    width: 13%;
+}
+
+.number:hover {
+    background-color: #fc7613;
+    cursor: pointer;
+}
+
+.submit-button {
+    line-height: 0%;
+    background-color: #fc7613;
+    border: none;
+    border-radius: 40px;
+    width: 85%;
+    height: 50px;
+    margin: 10% 7%;
+    font-family: 'Overpass';
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: white;
+    cursor: pointer;
+    color: #fc7613;
+}
+
+/* After submission, thank you card CSS */
+
+.selected {
+    text-align: center;
+}
+
+.final-rating {
+    color:#fc7613;
+}
+
+.thankyou {
+    visibility: hidden;
+}
+
+#phone {
+    margin-top: 2em;
+}
+
+.final-rating {
+    background-color: #212831;
+    width: 60%;
+    border-radius: 25px;
+    margin-left: 4rem;
+    padding-top: 13px;
+    height: 1.5625rem;
+}
+
+.thanks {
+    text-align: center;
+    padding-right: 1em;
+}
+
+.appreciate {
+    color: white;
+    margin: 0 2.5em;
+    line-height: 25px;
+}
